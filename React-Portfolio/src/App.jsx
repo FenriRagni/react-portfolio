@@ -5,12 +5,12 @@ function App() {
 
   return (
     <>
-    <Nav />
-    <main className='mx-3'>
-      <Outlet />
-    </main>
+      <Nav />
+      <main className='mx-3'>
+        <Outlet />
+      </main>
     </>
   )
 }
 
-export default App
+export default App;
