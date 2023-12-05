@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <div className="row text-center mx-0">
       <h2 className="text">Resume</h2>
-      <div className="text">For a downloadable version of my resume please right click and save link <a href='../../public/resume.pdf'>here</a>!</div>
+      <div className="text">For a downloadable version of my resume please right click and save link <a href='resume.pdf'>here</a>!</div>
         <br />
         <br />
         <h3 className="text">Skills</h3>
