@@ -62,3 +62,30 @@ img {
   height: 200px;
   width: 450px;
 }
+
+.form-control {
+  background-color: var(--dirty-blue);
+  color: var(--light-blue);
+  border-color: var(--hot-pink);
+}
+
+.form-control:focus {
+  background-color: var(--dirty-blue);
+  color: var(--light-blue)
+}
+.btn {
+  margin-top: 10px;
+  background-color: var(--dirty-blue);
+  color: var(--light-blue);
+  border-color: var(--hot-pink);
+}
+
+.btn:hover {
+  background-color: var(--dirty-blue);
+  color: var(--hot-pink);
+  border-color: var(--light-blue);
+}
+
+.error-text {
+  color: red;
+}
