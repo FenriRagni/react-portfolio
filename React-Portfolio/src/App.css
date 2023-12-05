@@ -33,6 +33,7 @@
 .text {
   color: var(--pink)
 }
+
 .me {
   position: absolute;
   color: var(--hot-pink);
@@ -50,4 +51,14 @@
   color: var(--light-blue);
   background-color: var(--deep-purple);
   border-color: var(--light-blue);
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+}
+
+img {
+  height: 200px;
+  width: 450px;
 }
