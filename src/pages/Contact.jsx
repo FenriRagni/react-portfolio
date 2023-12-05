@@ -78,12 +78,9 @@ function Contact() {
         <p>
           Email me at the email link below
         </p>
-        <p>
-          or
-        </p>
-        <p>
-          call me at (404)-935-3752
-        </p>
+        <p>||<br />
+        \ || / <br />
+        v</p>
       </div>
     </div>
   )

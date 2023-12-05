@@ -58,11 +58,6 @@ footer {
   bottom: 10px;
 }
 
-img {
-  height: 200px;
-  width: 450px;
-}
-
 .form-control {
   background-color: var(--dirty-blue);
   color: var(--light-blue);
@@ -88,4 +83,70 @@ img {
 
 .error-text {
   color: red;
+}
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}
+
+.img-wrapper:hover {
+  box-shadow: 5px 5px 5px var(--hot-pink);
+  transition-duration: 500ms;
+}
+
+.img-wrapper > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-wrapper:hover > img {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .repo {
+  position: absolute;
+  max-width: 64px;
+  max-height: 64px;
+  opacity: 0;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+.img-wrapper:hover > .repo {
+  opacity: 80;
+  transition-duration: 500ms;
+}
+
+.img-wrapper > .deployed {
+  position: absolute;
+  font-size: large;
+  color: var(--hot-pink);
+  top: 50%;
+  left: 50%;
+  opacity: 0%;
+  transform: translate(-50%, -50%);
+  background-color: var(--dirty-blue);
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.img-wrapper:hover > .deployed {
+  opacity: 80%;
+  transition-duration: 500ms;
+}
+
+.profile {
+  height: 400px;
+  width: 400px;
+}
+
+#about-me {
+  background-color: var(--dirty-blue);
+  color: vv;
 }
