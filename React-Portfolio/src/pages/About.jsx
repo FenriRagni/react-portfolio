@@ -1,3 +1,6 @@
 export default function About() {
-
+  return (<div className="row text-center">
+    <h2>About Me</h2>
+  </div>
+  )
 }

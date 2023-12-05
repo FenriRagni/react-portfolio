@@ -1,10 +1,11 @@
 export default function Resume() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Welcome to my page!
-      </p>
+    <div className="row text-center">
+      <h2>Resume</h2>
+      <div>For a downloadable version of my resume please right click and save link <a href='../../public/resume.pdf'>here</a>!</div>
+      <ul>
+
+      </ul>
     </div>
   );
 }

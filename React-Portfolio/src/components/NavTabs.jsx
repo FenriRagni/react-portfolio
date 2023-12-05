@@ -6,10 +6,10 @@ function NavTabs() {
 
   return (
     <>
-    <ul className='col-6 nav-tabs pt-3 ps-5 justify-content-start'>
+    <ul className='col-6 nav-tabs pt-3 ps-5'>
     <h1>Alonso Ampuero</h1>
     </ul>
-    <ul className='col-6 nav nav-tabs pt-5 justify-content-end'>
+    <ul className='col-6 nav nav-tabs pt-3 justify-content-end'>
       <li className='nav-item'>
         <Link
           to='/'
