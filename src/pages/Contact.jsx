@@ -38,6 +38,8 @@ function Contact() {
   }
 
   return (
+    <>
+    <h2 className='text text-center'>Contact</h2>
     <div className='row text-left justify-content-center'>
       <div className='col-3'>
       <form onSubmit={handleFormSubmit}>
@@ -83,6 +85,7 @@ function Contact() {
         v</p>
       </div>
     </div>
+    </>
   )
 }
 export default Contact;
