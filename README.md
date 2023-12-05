@@ -1,8 +1,8 @@
 # React-Porfolio
 
 ## Description
-Full stack text editor with offline support, and the ability to install to desktop <br>
-[deploy link](https://super-duper-text-editor.onrender.com/)
+Portfolio for my projects using React to develop the front end<br>
+[Deploy Link](https://main--alonso-portfolio-react.netlify.app/)
 
 ## Table of Contents
 [Technology Used](#technology-used)<br>
@@ -14,24 +14,32 @@ Full stack text editor with offline support, and the ability to install to deskt
 ## Technology Used
 |Technology Name|Resource|
 |-----------|------------|
-|JavaScript|[link](https://www.w3schools.com/js/js_intro.asp)|
-|Git|[link](https://www.w3schools.com/git/git_intro.asp?remote=github)|
-|Node.js|[link](https://nodejs.org/en/docs)|
-|concurrently|[link](https://www.npmjs.com/package/concurrently)|
-|webpack|[link](https://webpack.js.org/concepts/)|
-|express|[link](https://expressjs.com/en/starter/installing.html)|
-|babel|[link](https://www.npmjs.com/package/@babel/core)|
-|code-mirror-themes|[link](https://www.npmjs.com/package/code-mirror-themes)|
-|idb|[link](https://www.npmjs.com/package/idb)|
+|JavaScript|[Link](https://www.w3schools.com/js/js_intro.asp)|
+|Git|[Link](https://www.w3schools.com/git/git_intro.asp?)|
+|HTML|[Link](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)|
+|CSS|[Link](https://developer.mozilla.org/en-US/docs/Web/CSS)|
+|React|[Link](https://react.dev/)|
+|Vite|[Link](https://vitejs.dev)|
+|ESLint|[Link](https://eslint.org/)|
+|Netlify (Deployment)|[Link](https://www.netlify.com/)|
 
 ## Usage
-Service Worker alllows for offline use. Manifest allows for installation of app to desktop. 
+Allows prospective employers to view a front-end only website that I developed with React and be able to see some of my work.
+
+Main Page has an about me section <br>
+![main](./readme/About.jpg) <br> <br>
+Resume Page contains some of my skils with a link to my resume that can be downloaded <br>
+![resume](./readme/Skills.jpg) <br> <br>
+Projects page that shows some of the work I've done <br>
+![projects](./readme/Projects.jpg) <br> <br>
+Contact page is a non-functional representation of using React to allow for filling out of a form, the footer on every page has links to Github, email, and LinkedIn
+![contacts](./readme/Contact.jpg)
 
 ## Learning Points
-Got a better understanding of service workers, the necessity of manifests, and how webpack works.
+Got a deeper undestanding of React, how to pass properties through components and conditional rendering.
 
 ## Author
 Alonso Ampuero <br>
 [Twitter](https://www.twitter.com/fenri.ragni) <br>
 [Github](https://www.github.com/fenri.ragni) <br>
-[Portfolio](https://fenriragni.github.io/pro-portfolio/)
+[Portfolio](https://main--alonso-portfolio-react.netlify.app/)
