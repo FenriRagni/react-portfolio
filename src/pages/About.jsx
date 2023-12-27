@@ -13,7 +13,7 @@ export default function About() {
         I went to School at Mercer University in GA for Computer Engineering and Computer Science, but didn't quite finish.<br />
         After school, I worked a variety of food service jobs and eventually became a manager of a coffee shop in Macon, GA.<br />
         I then moved to Portland, OR for 4 years where I worked at a retail store as a clerk and then assistant manager.<br />
-        Due to the deteriating health of my grandmother worsening I moved back to GA in May 2023.<br />
+        Due to the deteriating health of my grandmother I moved back to GA in May 2023.<br />
         This gave me a kick in the pants to revitilize my desire to work as a developer and join a coding bootcamp.
         </p>
     </div>
